@@ -1,6 +1,8 @@
 # CalculatorExpenseJS
 Uma aplicação simples em JavaScript para calcular despesas pessoais.
 
+## ⚠️ PROJETO EM DESENVOLVIMENTO! ⚠️
+
 Receber dados das despesas -> Calcular total das despesas -> Retornar total das despesas
 
 1º Criar formulário que vai receber os dados. 
