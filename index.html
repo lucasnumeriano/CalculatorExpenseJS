@@ -4,8 +4,36 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Finance Tracker</title>
+    <script src="src/addExpenses.js" defer></script>
 </head>
 <body>
-    
+    <main id="main">
+        <form action="#">
+            <fieldset>
+                <legend>Renda</legend>
+                <label for="wage">Informe quanto você ganha no mês: R&dollar;</label>
+                <input type="number" name="wage" id="userWage" placeholder="1500">
+            </fieldset>
+
+            <fieldset id="expenseArea">
+                <legend>Despesas</legend>
+
+                <!-- Campo de entrada para o valor da despesa -->
+                <div class="expense-input">
+                    <label for="expenseName">Qual é a despesa?</label>
+                    <input type="text" name="expenseName" placeholder="IPTU, IPVA, Combustível...">
+                </div>
+
+                <div class="expense-input">
+                    <label for="expenseValue">Qual é o valor? R&dollar;</label>
+                    <input type="number" name="expenseValue" placeholder="250.86">
+                </div>
+
+                <button type="submit" id="addExpense">Adicione uma despesa</button>
+            </fieldset>
+            <br><br>
+            <button type="submit" id="calculateExpenses">Calcular Gastos</button>
+        </form>
+    </main>
 </body>
 </html>
